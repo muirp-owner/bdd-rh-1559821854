@@ -1,0 +1,4 @@
+FROM debian:8
+EXPOSE 8080
+CMD ["/bdd-rh-1559821854"]
+COPY ./ /
